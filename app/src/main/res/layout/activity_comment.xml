@@ -1,0 +1,102 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newloginrs">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/tvcomment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Comment" />
+
+        <EditText
+            android:id="@+id/edtcomment"
+            android:layout_width="fill_parent"
+            android:layout_height="103dp"
+            android:layout_below="@+id/tvcomment"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="comment"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:gravity="top|left"
+            android:paddingLeft="10dp"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:id="@+id/validateButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btnHeight"
+            android:layout_below="@+id/edtcomment"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_button"
+            android:text="finish"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:id="@+id/lblEmptySeparator4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnCapture1"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/validateButton"
+            android:text="@string/strEmpty"
+            android:textColor="@color/opaque_red"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_below="@+id/lblError"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="80dp"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="50"
+            android:progressDrawable="@drawable/progressbar"
+            android:secondaryProgress="100" />
+
+        <!-- android:progressDrawable="@drawable/progressbar"
+         android:minHeight="30dp"-->
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/whitecircle"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="50%"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</ScrollView>

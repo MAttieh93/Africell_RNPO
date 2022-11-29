@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_reguest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="guru.pmvungu.example.com.guru.Activity_new_subs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_view_margin_top_0"
+            android:visibility="visible">
+
+            <!--controls-->
+
+            <TextView
+                android:id="@+id/lblNoms"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:text="Nom et PostNom"
+                android:textSize="16sp"
+                android:paddingTop="5dp"
+
+               />
+
+            <EditText
+                android:id="@+id/txtNoms"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:maxLength="16"
+                android:inputType="textPersonName"
+                android:layout_below="@+id/lblNoms"
+                android:layout_marginTop="5dp"
+                android:padding="5dip"
+                android:background="@drawable/rounded_edittext" />
+
+            <TextView
+                android:id="@+id/lblNumerocompte"
+                android:layout_below="@+id/txtNoms"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:text="Numero Compte"
+                android:textSize="16sp"
+                android:paddingTop="5dp"
+
+                />
+
+            <EditText
+                android:id="@+id/txtNumerocompte"
+                android:layout_below="@+id/lblNumerocompte"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:maxLength="16"
+                android:inputType="number"
+                android:layout_marginTop="5dp"
+                android:padding="5dip"
+                android:background="@drawable/rounded_edittext" />
+            <TextView
+                android:id="@+id/lblTelephone"
+                android:layout_below="@+id/txtNumerocompte"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp"
+                android:paddingTop="5dp"
+                android:text="Telephone" />
+
+            <EditText
+                android:id="@+id/txtTelephone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:maxLength="16"
+                android:inputType="number"
+                android:layout_below="@+id/lblTelephone"
+                android:layout_marginTop="5dp"
+                android:padding="5dip"
+                android:background="@drawable/rounded_edittext" />
+
+            <TextView
+                android:id="@+id/lbladress"
+                android:layout_below="@+id/txtTelephone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:textSize="16sp"
+                android:paddingTop="5dp"
+                android:text="Adresse" />
+
+            <EditText
+                android:id="@+id/txtadress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:maxLength="16"
+                android:inputType="textPostalAddress"
+                android:layout_below="@+id/lbladress"
+                android:layout_marginTop="5dp"
+                android:padding="5dip"
+                android:background="@drawable/rounded_edittext" />
+
+
+            <Button
+                android:id="@+id/btncard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Piece d'Identite"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/rounded_button"
+                android:layout_below="@+id/txtadress"
+                android:layout_alignParentStart="true"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/validateButton"
+                android:layout_width="116dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/btncard"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/rounded_button"
+                android:onClick="onValidateClick"
+                android:text="Enregistrer" />
+
+            <TextView
+                android:id="@+id/lblEmptySeparator4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/validateButton"
+                />
+
+            <TextView
+                android:id="@+id/lblError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strEmpty"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_below="@+id/lblEmptySeparator4"
+                android:textColor="@color/opaque_red"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/validateButton"
+                android:layout_marginEnd="13dp"
+                android:text="Button" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>
+

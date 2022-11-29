@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_Modification"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="Modification" />
+
+        <item
+            android:id="@+id/nav_Radio_audit"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Radio audit" />
+
+        <item
+            android:id="@+id/nav_OM_Audit"
+
+            android:title="OM Audit" />
+        <item
+            android:id="@+id/nav_New_Site"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="New Site" />
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="Reports" />
+
+<!--
+        <item
+            android:id="@+id/nav_newsite"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="Create new site" />
+
+        <item
+            android:id="@+id/nav_rfdata"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="RF Data" />
+
+        <item
+            android:id="@+id/nav_photosite"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Take Pictures" />
+
+     <item
+            android:id="@+id/nav_photoantenne"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Take Antenna pictures" />
+
+        <item
+            android:id="@+id/nav_synchronize"
+            android:icon="@android:drawable/ic_popup_sync"
+            android:title="Synchronize" />
+      -->
+      <item
+            android:id="@+id/nav_parametre"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+    </group>
+<!--
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+-->
+    <item
+        android:id="@+id/nav_close"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="Close" />
+
+
+
+</menu>

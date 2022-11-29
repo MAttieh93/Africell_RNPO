@@ -1,0 +1,156 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newloginrs">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp">
+
+        <!--
+           <AutoCompleteTextView
+           android:id="@+id/cbophototype"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/rounded_edittext"
+           android:completionThreshold="1"
+           android:ems="10"
+           android:entries="@array/cbophototype"
+           android:hint="pictures"
+           android:paddingLeft="10dp">
+
+           <requestFocus />
+        </AutoCompleteTextView>
+        -->
+        <TextView
+            android:id="@+id/tvid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="0"
+           android:hint="0" />
+
+        <TextView
+            android:id="@+id/tvAntfullname"
+            android:layout_below="@+id/tvid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:hint="Antenna 0" />
+
+   <TextView
+            android:id="@+id/tvsitename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingStart="10dp"
+            android:layout_below="@+id/tvAntfullname"
+            android:text="SiteName" />
+
+        <AutoCompleteTextView
+            android:id="@+id/edtsitename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvsitename"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:padding="5dip"
+            android:hint="Site Name"
+            android:paddingStart="10dp"
+            android:textSize="16sp" />
+
+
+<!--
+  <EditText
+        android:id="@+id/edtsitename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvsitename"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:padding="5dip"
+        android:completionThreshold="1"
+        android:hint="Site Name"
+        android:paddingStart="10dp"
+        android:textSize="16sp" />
+-->
+        <TextView
+            android:id="@+id/tvantennamodel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtsitename"
+            android:layout_marginTop="10dp"
+            android:paddingStart="10dp"
+            android:text="Antenna Model" />
+        <requestFocus />
+        <AutoCompleteTextView
+            android:id="@+id/edantennamodel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext"
+            android:layout_below="@+id/tvantennamodel"
+            android:completionThreshold="1"
+            android:ems="10"
+            android:entries="@array/cbophototype"
+            android:hint="Antenna Model"
+            android:paddingLeft="10dp">
+
+        </AutoCompleteTextView>
+
+        <TextView
+            android:id="@+id/tvnport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edantennamodel"
+            android:layout_marginTop="10dp"
+            android:paddingStart="10dp"
+            android:text="Paire de Ports" />
+
+        <Spinner
+            android:id="@+id/spnport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvnport"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:entries="@array/array_ports"
+            android:padding="5dip"
+            android:paddingStart="10dp"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/validateButton"
+            android:layout_width="163dp"
+            android:layout_height="@dimen/btnHeight"
+            android:layout_below="@+id/spnport"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_button"
+            android:text="Save"
+
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/lblEmptySeparator4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/validateButton"
+            android:text=""
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/lblError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblEmptySeparator4"
+            android:text="@string/strEmpty"
+            android:textColor="@color/opaque_red"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</ScrollView>

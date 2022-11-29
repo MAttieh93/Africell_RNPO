@@ -1,0 +1,562 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newloginrs">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp">
+
+        <View
+            android:id="@+id/Linea0"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/violet" />
+
+        <TextView
+            android:id="@+id/antennamodel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Linea0"
+            android:layout_marginTop="10dp"
+            android:text="Antenna Model"
+            android:textColor="@color/opaque_red"
+            android:textSize="14dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/edtantennamodel"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/Linea0"
+            android:layout_marginTop="8dp"
+            android:hint="Model"
+            android:paddingTop="2dp"
+            android:textSize="13dp" />
+            />
+
+     <!--   <EditText
+            android:id="@+id/edtantennamodel"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/Linea0"
+            android:layout_marginTop="8dp"
+            android:hint="Model"
+            android:paddingTop="2dp"
+            android:textSize="13dp" />
+-->
+        <ImageView
+            android:id="@+id/ivAntmodel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtantennamodel"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+
+            />
+
+        <View
+            android:id="@+id/Linea"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/ivAntmodel"
+            android:background="@color/violet" />
+
+
+        <TextView
+            android:id="@+id/labelafricell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Linea"
+            android:layout_marginTop="10dp"
+            android:text="Antenna Label"
+            android:textColor="@color/opaque_red"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/edtlabelafricell"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/Linea"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="8dp"
+            android:hint="Oui/Non"
+            android:paddingTop="2dp"
+            android:textSize="13dp" />
+
+        <ImageView
+            android:id="@+id/ivAntlabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtlabelafricell"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            />
+
+        <View
+            android:id="@+id/Linea1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/ivAntlabel"
+            android:background="@color/violet" />
+
+        <TextView
+            android:id="@+id/ports"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Linea1"
+            android:layout_marginTop="10dp"
+            android:text="Paire de Port"
+            android:textColor="@color/opaque_red"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/edtports"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/Linea1"
+            android:layout_marginTop="8dp"
+            android:hint="0"
+            android:paddingTop="2dp"
+            android:textSize="13dp" />
+
+<!--
+        <LinearLayout
+            android:id="@+id/linNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtports">
+
+            <NumberPicker
+                android:id="@+id/numberPicker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerInParent="true"
+
+                />
+        </LinearLayout>
+
+        <Button
+            android:layout_below="@+id/edtports"
+            android:id="@+id/btn_less"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="-" />
+
+        <EditText
+            android:id="@+id/et_number"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:inputType="number"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/btn_more"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="+" />
+        -->
+        <ImageView
+            android:id="@+id/ivPorts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtports"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:contentDescription="@string/str_Capture1" />
+
+        <View
+            android:id="@+id/Linea2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/ivPorts"
+            android:layout_marginTop="10dp"
+            android:background="@color/violet" />
+
+        <TextView
+            android:id="@+id/azmuth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Linea2"
+            android:layout_marginTop="10dp"
+            android:text="Azimuth"
+            android:textColor="@color/opaque_red"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/edtazmuth"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/Linea2"
+            android:layout_marginTop="8dp"
+            android:hint="0"
+            android:paddingTop="2dp"
+            android:textSize="13dp" />
+
+        <ImageView
+            android:id="@+id/ivAzimuth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtazmuth"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:contentDescription="@string/str_Capture1" />
+
+        <View
+            android:id="@+id/Linea9"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/ivAzimuth"
+            android:background="@color/violet" />
+        
+        <TextView
+            android:id="@+id/mechanicaltilt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Linea9"
+            android:layout_marginTop="10dp"
+            android:text="Mechanical Tilt"
+            android:textColor="@color/opaque_red"
+            android:textSize="14dp" />
+
+        <Spinner
+            android:id="@+id/spmechanicaltilt"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/Linea9"
+            android:layout_marginTop="8dp"
+            android:hint="0"
+            android:textSize="13dp" />
+
+        <ImageView
+            android:id="@+id/ivmechanicaltilt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spmechanicaltilt"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:contentDescription="@string/str_Capture1" />
+
+        <View
+            android:id="@+id/Linea99"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/ivmechanicaltilt"
+            android:background="@color/violet" />
+
+        <TextView
+            android:id="@+id/bracket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Linea99"
+            android:layout_marginTop="10dp"
+            android:text="Brachet"
+            android:textColor="@color/opaque_red"
+            android:textSize="14dp" />
+
+        <Spinner
+            android:id="@+id/spbracket"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/Linea99"
+            android:layout_marginTop="6dp"
+            android:entries="@array/array_boolean"
+            android:hint="Oui"
+            android:textSize="13dp" />
+
+        <ImageView
+            android:id="@+id/ivbracket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spbracket"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:contentDescription="TODO" />
+
+
+
+
+        <View
+            android:id="@+id/Linea3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/ivbracket"
+            android:background="@color/violet" />
+        <TextView
+            android:id="@+id/height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Linea3"
+            android:layout_marginTop="10dp"
+            android:text="Height"
+            android:textColor="@color/opaque_red"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/edtheight"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/Linea3"
+            android:layout_marginTop="8dp"
+            android:hint="0"
+            android:paddingTop="3dp"
+            android:textSize="13dp" />
+
+        <ImageView
+            android:id="@+id/ivHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtheight"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:contentDescription="TODO" />
+
+
+
+
+        <View
+            android:id="@+id/Linea4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/ivHeight"
+            android:background="@color/violet" />
+
+        <TextView
+            android:id="@+id/antennaview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Linea4"
+            android:layout_marginTop="10dp"
+            android:text="Antenna view"
+            android:textColor="@color/opaque_red"
+            android:textSize="14dp" />
+
+
+        <ImageView
+            android:id="@+id/ivAntview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/antennaview"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+             android:contentDescription="@string/str_Capture1" />
+
+        <View
+            android:id="@+id/Linea6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/ivAntview"
+            android:background="@color/violet" />
+
+        <TextView
+            android:id="@+id/sectorobstruction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Linea6"
+            android:layout_marginTop="10dp"
+            android:text="Sector obstruction"
+            android:textColor="@color/opaque_red"
+            android:textSize="14dp" />
+
+
+        <Spinner
+            android:id="@+id/spsectorobstruction"
+            android:layout_width="180dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/Linea6"
+            android:layout_marginTop="6dp"
+            android:entries="@array/array_boolean"
+            android:paddingTop="@dimen/activity_view_margin_top_0"
+            android:textSize="13dp" />
+
+        <ImageView
+            android:id="@+id/iostruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spsectorobstruction"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:contentDescription="@string/str_Capture1" />
+
+    <!--
+    selector obstruction ground and tower level
+     -->
+
+        <View
+            android:id="@+id/Linea7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/iostruction"
+            android:background="@color/violet" />
+        <TextView
+            android:id="@+id/sectorobstructionground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Linea7"
+            android:layout_marginTop="10dp"
+            android:text="Ground Level"
+            android:textColor="@color/opaque_red"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/edtground"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/Linea7"
+            android:layout_marginTop="8dp"
+            android:hint="Ground level"
+            android:paddingTop="3dp"
+            android:textSize="13dp"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/ivground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtground"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:contentDescription="TODO" />
+        <View
+            android:id="@+id/Linea8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/ivground"
+            android:background="@color/violet" />
+        <TextView
+            android:id="@+id/sectorobstructiontower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Linea8"
+            android:layout_marginTop="10dp"
+            android:text="Tower Level"
+            android:textColor="@color/opaque_red"
+            android:textSize="14dp" />
+
+        <EditText
+            android:id="@+id/edtsectortower"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/Linea8"
+            android:layout_marginTop="8dp"
+            android:hint="Tower level"
+            android:paddingTop="3dp"
+            android:textSize="13dp"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/ivsectortower"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtsectortower"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:contentDescription="TODO" />
+
+
+        <Button
+            android:id="@+id/btnCapture1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btnHeight"
+            android:layout_below="@+id/ivsectortower"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_button"
+            android:text="@string/str_Capture1"
+            android:textSize="12sp"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/validateButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btnHeight"
+            android:layout_below="@+id/btnCapture1"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rounded_button"
+            android:text="uploader"
+            android:visibility="gone"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/photoflag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/validateButton"
+            android:text="0"
+            android:textColor="@color/opaque_red"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/siteflag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/photoflag"
+            android:text="0"
+            android:textColor="@color/opaque_red"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+        <ImageView
+            android:id="@+id/imgpicture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_below="@+id/siteflag"
+            android:layout_marginTop="5dp"
+            android:contentDescription="@string/str_Capture1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/strEmpty"
+            android:id="@+id/separator"
+            android:layout_below="@+id/ivsectortower" />
+
+
+        <RelativeLayout
+            android:id="@+id/rPort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/separator"
+            android:layout_marginTop="10dp">
+            <RelativeLayout
+                android:id="@+id/lnPort"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

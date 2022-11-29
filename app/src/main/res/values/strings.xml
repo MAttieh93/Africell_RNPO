@@ -1,0 +1,223 @@
+<resources>
+    <string name="app_name">Survey Africell</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="strEmpty"></string>
+    <string name="agence">Agence</string>
+    <string name="numero_compte">Numero Compte</string>
+    <string name="aaaa_mm_dd">AAAA-mm-dd</string>
+    <string name="date_retrait">Date Retrait</string>
+
+    <string name="account_login">Account Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="password">Password</string>
+    <string name="user_name">User Name</string>
+
+    <string name="code_pin">CODE PIN :</string>
+    <string name="veuillez_noter_votre_code_pin">Veuillez noter votre code PIN</string>
+    <string name="motif">Motif</string>
+    <string name="devise">Devise</string>
+    <string name="montant">Montant</string>
+
+    <string name="africellrdc">Africell RDC.</string>
+    <string name="rnpodept">RNPO Dept.</string>
+    <string name="str_Capture1">Take Picture &#38; uploader</string>
+    <string name="selectsite">select Site</string>
+
+    <string-array name="cboreporttype">
+        <item>select report type</item>
+        <item>Acceptance</item>
+        <item>Action</item>
+        <item>Audit</item>
+    </string-array>
+    <string-array name="site_array">
+        <item></item>
+        <item>HG</item>
+        <item>Victoire</item>
+        <item>Gombe</item>
+    </string-array>
+    <string-array name="Agence_array">
+        <item></item>
+        <item>HG</item>
+        <item>Victoire</item>
+        <item>Gombe</item>
+    </string-array>
+    <string-array name="Devise_array">
+        <item></item>
+        <item>CDF</item>
+        <item>USD</item>
+    </string-array>
+    <string-array name="Motif_array">
+        <item></item>
+        <item>Depot espèce</item>
+        <item>Retrait espèce</item>
+    </string-array>
+
+    <string-array name="cbosite">
+        <item>Select Site</item>
+        <item>Site ID</item>
+        <item>Site Photo</item>
+   </string-array>
+
+
+    <string-array name="cboconfiguration">
+        <item>Configuration</item>
+        <item>2G</item>
+        <item>2G/3G</item>
+        <item>2G/3G/4G</item>
+    </string-array>
+
+    <string-array name="cbophototype">
+        <item>Choose Picture</item>
+        <item>Antenna Photo</item>
+        <item>Panoramic Photo</item>
+        <item>Site Photo</item>
+    </string-array>
+
+    <string-array name="cbotech">
+        <item>Technology</item>
+        <item>2G</item>
+        <item>3G</item>
+        <item>4G</item>
+        <item>Autre</item>
+    </string-array>
+    <string-array name="cbosector">
+        <item>Sector</item>
+        <item>Sector A</item>
+        <item>Sector B</item>
+        <item>Sector C</item>
+        <item>Sector D</item>
+    </string-array>
+    <string-array name="cbosector3G">
+        <item>Select Sector</item>
+        <item>Sector E</item>
+        <item>Sector F</item>
+        <item>Sector G</item>
+        <item>Sector H</item>
+        <item>Sector I</item>
+        <item>Sector J</item>
+    </string-array>
+    <string-array name="cbosector4G">
+        <item>Sector</item>
+        <item>Sector 1</item>
+        <item>Sector 2</item>
+        <item>Sector 3</item>
+    </string-array>
+
+    <string-array name="cbosectorautre">
+        <item>Sector</item>
+        <item>autre</item>
+
+    </string-array>
+    <string-array name="cbopanorama">
+        <item>Panoramic</item>
+        <item>0 degre</item>
+        <item>30 degre</item>
+        <item>60 degre</item>
+        <item>90 degre</item>
+        <item>120 degre</item>
+        <item>150 degre</item>
+        <item>180 degre</item>
+        <item>210 degre</item>
+        <item>240 degre</item>
+        <item>270 degre</item>
+        <item>300 degre</item>
+        <item>330 degre</item>
+        <item>360 degre</item>
+    </string-array>
+    <string-array name="cbodescriptionphoto">
+        <item>Description pictures</item>
+        <item>Antenna installation</item>
+        <item>Antenna ports</item>
+        <item>Antenna label</item>
+        <item>Sector view</item>
+        <item>Mechanical Tilt</item>
+        <item>Electrical Tilt 900</item>
+        <item>Electrical Tilt 1800</item>
+        <item>Autre</item>
+    </string-array>
+
+    <string-array name="cborfdatavalue">
+        <item>select items</item>
+        <item>Antenna label</item>
+        <item>Antenna Height(HBA)</item>
+        <item>Azmuth</item>
+        <item>Mechanical Tilt</item>
+        <item>Electrical Tilt 900</item>
+        <item>Electrical Tilt 1800</item>
+        <item>Tilt on Top of Ant.</item>
+        <item>Autre</item>
+    </string-array>
+
+    <string name="hello_world">Welcome to Africell System</string>
+    <string name="africellsitevisite">Africell site visit from</string>
+    <string name="_44">44</string>
+
+
+    <string-array name="array_action">
+        <item>Modification</item>
+        <item>New Site</item>
+        <item>OM Audit</item>
+        <item>Radio audit</item>
+   </string-array>
+
+    <string-array name="array_antenne">
+        <item>Antenna Info</item>
+        <item>Ports info</item>
+        <item>others</item>
+     </string-array>
+
+    <string-array name="array_ant_description">
+        <item>select antenna items.</item>
+        <item>Antenna Height(HBA)</item>
+        <item>Antenna Model</item>
+        <item>Antenna View</item>
+        <item>Azmuth</item>
+        <item>Label Africell</item>
+        <item>Ports</item>
+        <item>Sector Obstruction</item>
+    </string-array>
+
+    <string-array name="array_port_description">
+        <item>select port items.</item>
+        <item>RRU Type</item>
+        <item>Electrical Tilt.</item>
+    </string-array>
+
+    <string-array name="array_owner">
+        <item></item>
+        <item>Africell</item>
+        <item>Helios.</item>
+    </string-array>
+
+    <string-array name="array_boolean">
+        <item>-</item>
+        <item>Oui</item>
+        <item>Non</item>
+    </string-array>
+
+    <string-array name="array_vender">
+        <item></item>
+        <item>Ericsson</item>
+        <item>Huawei</item>
+    </string-array>
+    <string-array name="array_ports">
+
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+</resources>

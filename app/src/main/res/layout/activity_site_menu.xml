@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/newloginrs"
+    tools:context="guru.pmvungu.example.com.guru.Activity_site_menu">
+
+
+<!--
+    <Button
+        android:id="@+id/btnSitedetail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btnHeight"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="Site Details" />
+
+    <Button
+        android:id="@+id/btnPanoramic"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btnHeight"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded_button"
+        android:layout_below="@+id/btnSitedetail"
+        android:text="Panoramic" />
+
+    <Button
+        android:id="@+id/btnAtenna"
+        android:layout_below="@+id/btnPanoramic"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btnHeight"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="Antenna 1" />
+    -->
+   <!-- <LinearLayout
+        android:id="@+id/linearLayour"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btnAtenna"
+        android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hdhd" />
+
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt1"
+            android:text="hdhd" />
+    </LinearLayout>
+
+-->
+
+
+    <ListView
+        android:id="@+id/lvBbutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:listSelector="@drawable/list_selector"/>
+
+    <!--
+    <LinearLayout
+        android:id="@+id/linearLayour"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lvBbutton"
+        android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="10dp">
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="match_parent"
+
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_height="@dimen/btnHeight"
+        android:background="@drawable/rounded_button"
+        android:text="submit" />
+    </LinearLayout>
+    -->
+
+</LinearLayout>
+
+

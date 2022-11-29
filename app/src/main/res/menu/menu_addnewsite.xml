@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_addnewsite"
+        android:orderInCategory="100"
+        android:title="Add Antenna"
+        app:showAsAction="never" />
+   <item
+        android:id="@+id/action_editantenna"
+        android:orderInCategory="100"
+        android:title="Edit Antenna"
+        app:showAsAction="never" />
+  <!--   <item
+        android:id="@+id/action_deletesite"
+        android:orderInCategory="100"
+        android:title="Delete Sitename"
+        app:showAsAction="never" /> -->
+</menu>

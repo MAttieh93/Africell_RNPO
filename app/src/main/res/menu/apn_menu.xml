@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pmvungu.androidos.AddInfos">
+    <item
+        android:id="@+id/addnewapn"
+        android:orderInCategory="100"
+        android:title="Save" />
+
+    <item
+        android:id="@+id/main"
+        android:orderInCategory="100"
+        android:title="Main"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        android:title="Refresh"
+        app:showAsAction="never" />
+
+</menu>
