@@ -120,7 +120,7 @@ public class Activity_panoramic extends AppCompatActivity implements View.OnClic
     public static final int CONNECTION_TIMEOUT=10000;
     public static final int READ_TIMEOUT=15000;
 
-    final int REQUIRED_SIZE = 512;
+    final int REQUIRED_SIZE = 1200;
     private int imgwidth=250;
     private int imgheight=190;
 
@@ -289,7 +289,7 @@ public class Activity_panoramic extends AppCompatActivity implements View.OnClic
                     Bitmap bmp;
                     bmp= BitmapFactory.decodeByteArray(imageAsBytes, 0, imageAsBytes.length);
                    // image.setAdjustViewBounds(true);
-                    image.setImageBitmap(bmp);
+                    image.setImageBitmap(Bitmap.createScaledBitmap(bmp, 1200, 1200, false));
 
                 } while (curSiteDetails.moveToNext());
             }
