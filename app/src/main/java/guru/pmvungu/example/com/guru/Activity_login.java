@@ -789,3 +789,5 @@ public class Activity_login extends AppCompatActivity {
     String strURLInsertRegistration="";
     public String[] strListAntenna=null;//{"Kathrein","Andrew: DBXLH-6565C-VTM"};
 }
+
+
